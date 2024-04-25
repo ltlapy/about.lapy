@@ -1,0 +1,79 @@
+/* ******************** */
+/* 페이지 전역 */
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ******************** */
+/* 상위 페이지에서 보이는 부분 */
+
+body {
+    /* flex-wrap: nowrap */
+    height: 100vh;
+    margin: 0;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+body > * {
+    flex-basis: auto;
+    padding: 0em 2em;
+    flex-grow: 1;
+}
+
+header {
+    flex-basis: 40vh;
+}
+
+/* ******************** */
+/* 각 링크 블록 */
+
+.link-block {
+    /* border: 1px solid black; */
+    display: block;
+    box-shadow: inset 3px 0px 6px #0004;
+    min-width: 7em;
+    padding: 0px 32px;
+    background-color: #eee;  /* fallback */
+}
+ul.container-link-block {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    /* transform: translateY(-1.5em); */
+    /* transform: translateY(-24px); */
+}
+ul.container-link-block li.link-block {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.link-block h2 /* legecy */,
+.link-block .name {
+    height: 2em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.link-block .icon-primary {
+    background-color: white;
+    color: grey;
+    border-radius: 20%;
+    font-size: .7em;
+    padding: 0.1em 0.2em;
+}
+
+/* 캐릭터별 테마색상 지정 */
+
+#section-lapy {
+    color: #dd97c6;
+    background-color: #26262d;
+    background-image: url("/static/lapy.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 130%;
+}

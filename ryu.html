@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About.lapy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ryu jongheon</h1>
+        <p>평온한 나날을 꿈꾸는 루키 프로그래머 지망생.</p>
+        <p><a href="index.html">돌아가기</a></p>
+    </header>
+
+    <main>
+        <h2>자기소개</h2>
+        <h2>학력</h2>
+        <ul>
+            <li>2019. 02 - 칠원고등학교 자연계 졸업</li>
+            <li>2019. 03 - 부산외국어대학교 컴퓨터공학과 입학</li>
+            <li>2020. 03 ~ 2022.02 병역 휴학</li>
+            <li>2025. 07 - 부산외국어대학교 컴퓨터공학과 (일본어융합학부 일본IT전공 복수전공) 졸업 예정</li>
+        </ul>
+        <h2>Skills</h2>
+        <ul>
+            <li>Language</li>
+            <ol>
+                <li>Python</li>
+                <li>HTML, CSS</li>
+                <li>Javascript + TypeScript</li>
+                <li>Java</li>
+            </ol>
+        </ul>
+        <h2>프로젝트</h2>
+        <ul>
+            <li>
+                <span><a href="http://k.lapy.link/">CherryPick.lapy</a></span>
+                <!-- TODO: Tech stack styling (div-span 구조) -->
+                <span>2020-now</span>  <!-- TODO: 기간 styling -->
+                <p>
+                    Twitter와 비슷한 단문 SNS 플랫폼인 Misskey를 사용한 서비스를 운영하고 있습니다. 
+                    ActivityPub 서비스를 사용함으로써 Mastodon, Pleroma(Akkoma), PixelFed, 
+                    나아가 Threads와도 소통이 가능한 점이 인상적입니다.
+                </p>
+                <p>
+                    본래 개인 목적으로 사용했으나, 당시 ActivityPub 기반 SNS가 활성화되지 않은 시기이고, 
+                    Misskey 운영에 대한 정보가 부족하여 진입 장벽이 어렵다는 문제를 파악하여 공개로 전환하여 지금까지 운영하고 있습니다.
+                </p>
+                <p>
+                    2024년 4월 기준으로 2,690개의 계정이 등록되어 있으며, 로컬 월간 사용자 120명과 함께 612개 서버의 19,000여명과의
+                    통신을 중계하며 일일 540k 건의 요청을 처리하고 있습니다.
+                </p>
+                <p>
+                    해당 소프트웨어는 TypeScript, Vue.js, PostgreSQL, Redis를 사용하고 있으며, Oracle Cloud Computing에
+                    Deploy하여, 필요에 따라 서버 최적화를 진행하고 있습니다.
+                </p>
+            </li>
+            <li>
+                <span>교내 시험용 전체화면 시계</span>
+                <div>(HTML 포팅: <a href="https://ltlapy.github.io/html-screenclock/">Link</a> / <a href="https://github.com/ltlapy/html-screenclock">GitHub</a> )</div>
+                <p>교내에서의 활용을 위해 자발적으로 제작한 전체화면 시계입니다.</p>
+                <p>교내 시험 시 교실 전면에 있는 모니터에 시계를 표시하여 시험을 진행하나, 당시에 인터넷 상에 공개되어
+                    있는 소프트웨어가 마음에 들지 않는다는 이유로 Lua와 Love2D 엔진을 활용하여 자체적으로 제작하였습니다.
+                    제작할 당시에는 저희 반에서만 사용하였으나, 입소문을 타고 다른 학반에서도 사용하게 되었고, 학생들로부터
+                    의견을 수렴하여 시험일정 표시 등의 기능을 추가로 구현하여 배포한 것이 기억에 남습니다.
+                </p>
+            </li>
+        </ul>
+    </main>
+</body>
